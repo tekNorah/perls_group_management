@@ -1,0 +1,8 @@
+name: 'PERLS Group Management'
+type: module
+description: 'Provides custom VBO actions and other features for managing groups'
+core: 8.x
+package: 'PERLS'
+dependencies:
+  - drupal:views_bulk_operations
+  - drupal:group

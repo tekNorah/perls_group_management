@@ -1,0 +1,17 @@
+{
+    "name": "perls_group_management",
+    "type": "drupal-module",
+    "description": "Provides custom VBO actions and other features for managing groups",
+    "homepage": "https://clientportal.assembla.com/spaces/ADLPERLS/wiki/PERLS_Group_Management",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name" : "Shannon Medlin",
+            "email" : "smedlin@tekAura.com",
+            "homepage" : "https://www.tekAura.com",
+            "role" : "Developer"
+        }    ],
+    "require": {
+        "drupal/views_bulk_operations": "^3.3"
+    }
+}

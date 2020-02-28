@@ -1,0 +1,9 @@
+perls_group_management.confirm:
+  path: '/views-bulk-operations/confirm/{view_id}/{display_id}'
+  defaults:
+    _form: '\Drupal\perls_group_management\Form\RemoveMembersConfirmAction'
+    _title: 'Views Bulk Operations confirm execution'
+  requirements:
+    _views_bulk_operation_access: 'TRUE'
+  options:
+    _admin_route: TRUE
